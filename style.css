@@ -1,0 +1,67 @@
+@font-face {
+    font-family: mainfont;
+    src:url("/fonts/Comicy.ttf");
+}
+
+body { 
+    margin:0;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+p {
+    color: white;
+}
+
+a:link {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+#topcontainer {
+    font-family: mainfont;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    content: '';
+    background-color: rgba(0,0,0,0.25);
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+#videobcg {    
+    width: inherit;
+    height: inherit;
+    -o-filter: blur(15px);
+    filter: blur(15px);
+    object-fit: cover;
+    transform: scale(1.04);
+    z-index: -1000;
+}
