@@ -1,0 +1,42 @@
+/**JOIN NOW BUTTON SPRITE**/
+.button {
+    text-align: center;
+    margin:0;
+    padding:0;
+  }
+  
+  .button p {
+  /*move text link off screen*/
+    text-indent: -9999em;
+  }
+  
+  .button a {
+  /*Change anchor to block element */
+    display: block; 
+    width: 600px;
+  /*Specify width and height of image, Height value is each button state */
+    height: 220px; 
+    background: url(imgs/button-apple.png) no-repeat;
+  }
+  
+  .button a:link {background-position: top;}
+  
+  .button a:visited {background-position: top;}
+  
+  .button a:hover {background-position: center;}
+  
+  .button a:active,
+  .button a:focus {background-position: bottom; outline:none;}
+
+  .button-apple a {
+    background: url(imgs/button-apple.png) no-repeat;
+  }
+  .button-android a {
+    background: url(imgs/button-android.png) no-repeat;
+  }
+  .button-steam a {
+    background: url(imgs/button-steam.png) no-repeat;
+  }
+  .button-discord a {
+    background: url(imgs/button-discord.png) no-repeat;
+  }

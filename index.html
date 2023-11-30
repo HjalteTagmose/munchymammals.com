@@ -3,21 +3,29 @@
     <head>
         <title>Munchy Mammals</title>
         <meta charset="UTF-8">
-        <link rel="icon" href="icon.ico">
+        <link rel="icon" href="imgs/icon.ico">
         <link href="style.css" rel="stylesheet">
+        <link href="button.css" rel="stylesheet">
     </head>
     <body>
-        <div id="topcontainer">
-            <div style="height:5rem"></div>
-            <img src="logo.png" style="width:870px;height:417px;align-self:center;z-index:10;"/>
-            <h1>Currently in development</h1>
-            <p>Find more <a href="https://twitter.com/hjaltetagmose">here</a></p>
+        <div class="container grasslands">
+            <img src="imgs/logo.png" class="logo"/>
+            <p style="margin: 0.5em;">Get it now!</p>
+            <div style="margin: -1.3em;" class="button button-apple"><p><a href="https://www.apple.com/app-store/" target=”_blank” title="Apple">Apple</a></p></div>
+            <div style="margin: -1.3em;" class="button button-android"><p><a href="https://play.google.com/store/games?hl=en&gl=US" target=”_blank” title="Apple">Apple</a></p></div>
+            <div style="margin: -1.3em;" class="button button-steam"><p><a href="https://store.steampowered.com/app/2382920/Munchy_Mammals" target=”_blank” title="Apple">Apple</a></p></div>
+            <div style="margin-top: 1em;"></div> 
+            <p style="margin: 0.5em;">Join the community!</p>
+            <div style="margin: -1.4em;" class="button button-discord"><p><a href="https://discord.gg/7yxeeScN3G" target=”_blank” title="Apple">Apple</a></p></div>
+            <div style="margin-top: 2em;"></div> 
         </div>
-        <div id="container">
-            <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
-                <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
-                Sorry, your browser does not support HTML5 video.
-            </video>
+        <div class="container desert">
+            <div class="edge"></div>
+            <div style="margin-top: 2em;"></div> 
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kUHkHcbutE0?si=hkuBdPpmyes4NqFu" title="Munchy Mammals Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div style="margin-top: 2em;"></div> 
         </div>
+        <div class="container radioactive">3</div>
+        <script src="script.js"></script>
     </body>
 </html>

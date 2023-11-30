@@ -1,67 +1,69 @@
 @font-face {
     font-family: mainfont;
-    src:url("/fonts/Comicy.ttf");
+    src:url("/fonts/troika.otf");
 }
 
 body { 
     margin:0;
 }
 
-h1 {
-    color: white;
-    font-size: 2.5rem;
-}
-
-p {
-    color: white;
-}
-
-a:link {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-}
-a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-#topcontainer {
+/* 
+.main{
     font-family: mainfont;
-    width: 100vw;
-    height: 100vh;
+    background-color: pink;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+} */
+
+.container {
+    font-family: mainfont;
+    font-size: 3.5em;
     text-align: center;
-    overflow: hidden;
-    position: fixed;
-    z-index: 1;
-    content: '';
-    background-color: rgba(0,0,0,0.25);
+    width: 100%;
+
+    /* flex */
+    display: flex;
+    flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
 }
 
-#container {
-    width: 100vw;
-    height: 100vh;
-    text-align: center;
-    overflow: hidden;
+.grasslands {
+    color: #D1E8D1;
+    background-color: #EBFCEB;
 }
 
-#videobcg {    
-    width: inherit;
-    height: inherit;
-    -o-filter: blur(15px);
-    filter: blur(15px);
-    object-fit: cover;
-    transform: scale(1.04);
-    z-index: -1000;
+.desert {
+    background-color: #FFE7B8;
+}
+
+.radioactive {
+    background-color: #C995E5;
+}
+
+.logo {
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 80%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.edge {
+    width:100%;  
+    height:100%;  
+    background-image: url("imgs/edge-web.png");
+    background-repeat: repeat-x;
+    min-height: 158px;
+    background:#EBFCEB;
+    -webkit-mask:url("imgs/edge-web.png"); 
+            mask:url("imgs/edge-web.png");
+    margin: -5px;
 }
