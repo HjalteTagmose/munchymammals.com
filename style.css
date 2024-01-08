@@ -3,13 +3,18 @@
     src:url("/fonts/troika.otf");
 }
 
-body { 
-    margin:0;
-}
-
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+}
+
+body, a {
+    margin:0;
+    cursor: url("imgs/cursor.ico"), auto;
+}
+
+body.mousedown, a.mousedown {
+    cursor: url("imgs/cursor_pressed.ico"), auto !important;
 }
 
 /* 
