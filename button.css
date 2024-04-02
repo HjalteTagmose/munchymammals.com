@@ -40,3 +40,8 @@
   .button-discord a {
     background: url(imgs/button-discord.png) no-repeat;
   }
+  .button-presskit a {
+    width: 300px;
+    height: 110px;
+    background: url(imgs/button-presskit.png) no-repeat;
+  }
