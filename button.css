@@ -34,6 +34,9 @@
   .button-android a {
     background: url(imgs/button-android.png) no-repeat;
   }
+  .button-switch a {
+    background: url(imgs/button-switch.png) no-repeat;
+  }
   .button-steam a {
     background: url(imgs/button-steam.png) no-repeat;
   }
